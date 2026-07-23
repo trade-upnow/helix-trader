@@ -1,0 +1,119 @@
+{
+  "nav": {
+    "brand": "Helix Trader",
+    "login": "Client Login",
+    "launch": "Launch Bot",
+    "settings": "Password",
+    "logout": "Logout"
+  },
+  "hero": {
+    "badge": "Institutional-grade futures automation",
+    "title": "Turn exchange API keys into a one-click trading workflow.",
+    "description": "An automated trading bot platform built for Binance and OKX futures.",
+    "primary": "Open Console",
+    "secondary": "View Strategy",
+    "stats1Label": "Verified 30-Day Return",
+    "stats2Label": "Annualized Projection",
+    "stats3Label": "Maximum Historical Drawdown"
+  },
+  "strategies": {
+    "trend_following_core": {
+      "name": "Helix Momentum X",
+      "description": "A trend-following futures engine that reacts to momentum continuation and exits aggressively when volatility breaks structure."
+    },
+    "trend_breakout_accel": {
+      "name": "Helix Breakout Pro",
+      "description": "Focuses on high-momentum breakouts with quick short-term entries and exits, utilizing dynamic trailing stops."
+    }
+  },
+  "strategy": {
+    "sectionTitle": "Flagship Strategy",
+    "name": "Helix Momentum X",
+    "subtitle": "A trend-following futures engine that reacts to momentum continuation and exits aggressively when volatility breaks structure.",
+    "bullet1": "Adaptive moving-average and momentum filter to avoid low-quality chop.",
+    "bullet2": "Position sizing, stop-loss and max drawdown are controlled at the account layer.",
+    "bullet3": "Supports Binance and OKX futures with a shared strategy interface.",
+    "monthlyReturn": "Verified 30-Day Return: +28.4%",
+    "annualized": "Annualized Projection: ~315.8%",
+    "winRate": "Execution Win Rate: 74.5%",
+    "riskLabel": "Risk disclaimer",
+    "riskText": "Digital asset derivatives involve significant volatility. Past performance is illustrative only and does not guarantee future returns."
+  },
+  "login": {
+    "title": "Client Access",
+    "subtitle": "Accounts are provisioned by administrators. Clients can sign in and change their password after first login.",
+    "username": "Username",
+    "password": "Password",
+    "submit": "Sign In",
+    "hint": "No public registration is enabled."
+  },
+  "dashboard": {
+    "eyebrow": "Client Console",
+    "title": "Minimal setup. Maximum clarity.",
+    "description": "Enter your exchange credentials, optionally tune a few risk controls, and launch the bot in one flow.",
+    "strategyTitle": "Choose Strategy",
+    "apiTitle": "Exchange Credentials",
+    "apiDesc": "Credentials are encrypted before storage. The UI only shows a masked key preview after saving.",
+    "exchange": "Exchange",
+    "apiKey": "API Key",
+    "secret": "API Secret",
+    "passphrase": "Passphrase (OKX only)",
+    "saveKeys": "Save Credentials",
+    "masked": "Saved Key Preview",
+    "noSavedKey": "No credential saved yet.",
+    "advanced": "Advanced Settings",
+    "showAdvanced": "Show Advanced Settings (Optional)",
+    "hideAdvanced": "Hide Advanced Settings",
+    "riskWarning": "Digital asset trading involves significant risk. Proceed with caution.",
+    "symbol": "Trading Symbol",
+    "leverage": "Leverage",
+    "positionSize": "Position Size (%)",
+    "stopLoss": "Stop Loss (%)",
+    "takeProfit": "Take Profit (%)",
+    "maxDrawdown": "Max Drawdown (%)",
+    "maxOrderNotional": "Max Order Notional (USDT)",
+    "maxPositionNotional": "Max Position Notional (USDT)",
+    "useSandbox": "Sandbox / demo environment",
+    "sandboxHint": "Enable when using OKX demo, Binance testnet, or other sandbox API keys. The saved flag is what the bot uses when it runs.",
+    "testnet": "Demo / testnet mode",
+    "adminOnly": "Visible to admin accounts only.",
+    "start": "Start Now",
+    "stop": "Stop Bot",
+    "statusTitle": "Runtime Status",
+    "running": "Running",
+    "stopping": "Stopping",
+    "stopped": "Stopped",
+    "balance": "Account Equity",
+    "unrealizedPnl": "Unrealized PnL",
+    "realizedPnl": "Realized PnL",
+    "exposure": "Exposure",
+    "positionsTitle": "Open Positions",
+    "tradesTitle": "Recent Trades",
+    "long": "Long",
+    "short": "Short",
+    "noTrades": "No trades recorded yet.",
+    "closeAll": "Close all positions when stopping",
+    "applySettings": "Apply Settings",
+    "applyingSettings": "Applying Settings",
+    "snapshotUpdated": "Account snapshot updated",
+    "runtimeSymbol": "Runtime Symbol",
+    "runtimeStrategy": "Runtime Strategy",
+    "runtimePosition": "Position Side",
+    "symbolLockedHint": "The trading symbol is locked while the bot is running. Stop the bot before switching it."
+  },
+  "settings": {
+    "title": "Change Password",
+    "currentPassword": "Current Password",
+    "newPassword": "New Password",
+    "confirmPassword": "Confirm Password",
+    "submit": "Update Password"
+  },
+  "chart": {
+    "title": "Growth Curve Preview",
+    "subtitle": "Illustrative growth curve preview."
+  },
+  "common": {
+    "binance": "Binance Futures",
+    "okx": "OKX Futures"
+  }
+}

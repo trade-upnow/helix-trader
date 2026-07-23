@@ -1,0 +1,119 @@
+{
+  "nav": {
+    "brand": "Helix Trader",
+    "login": "客户登录",
+    "launch": "启动机器人",
+    "settings": "修改密码",
+    "logout": "退出登录"
+  },
+  "hero": {
+    "badge": "机构级合约自动化",
+    "title": "把交易所 API Key 变成一键运行的交易流程。",
+    "description": "面向币安与 OKX 合约的自动化交易机器人平台。",
+    "primary": "打开控制台",
+    "secondary": "查看策略亮点",
+    "stats1Label": "验证 30 日收益",
+    "stats2Label": "年化预估收益",
+    "stats3Label": "历史最大回撤"
+  },
+  "strategies": {
+    "trend_following_core": {
+      "name": "Helix Momentum X",
+      "description": "以趋势跟踪为核心，在动量延续时入场，在结构破坏或波动失真时快速离场，适配合约市场的单边行情。"
+    },
+    "trend_breakout_accel": {
+      "name": "Helix Breakout Pro",
+      "description": "专注高动量突破行情，短线快进快出，通过动态追踪止损捕捉极限利润。"
+    }
+  },
+  "strategy": {
+    "sectionTitle": "主打策略",
+    "name": "Helix Momentum X",
+    "subtitle": "以趋势跟踪为核心，在动量延续时入场，在结构破坏或波动失真时快速离场，适配合约市场的单边行情。",
+    "bullet1": "自适应均线与动量过滤器结合，尽量规避低质量震荡区间。",
+    "bullet2": "仓位、止损与最大回撤均由账户级风控统一管理。",
+    "bullet3": "通过统一策略接口兼容多交易所与同类数据结构的不同策略实现。",
+    "monthlyReturn": "验证 30 日收益：+28.4%",
+    "annualized": "年化预估收益：约 315.8%",
+    "winRate": "成交胜率：74.5%",
+    "riskLabel": "风险提示",
+    "riskText": "数字资产衍生品波动较大，页面收益展示仅作示意，不构成任何收益承诺。"
+  },
+  "login": {
+    "title": "客户专属登录",
+    "subtitle": "账号由管理员预先创建并发放，首次登录后可自行修改密码。",
+    "username": "账号",
+    "password": "密码",
+    "submit": "立即登录",
+    "hint": "平台不开放公开注册。"
+  },
+  "dashboard": {
+    "eyebrow": "客户控制台",
+    "title": "配置极简，启动直接。",
+    "description": "填写交易所凭证，可选调整少量风险参数，然后一键启动自动交易。",
+    "strategyTitle": "选择策略",
+    "apiTitle": "交易所凭证",
+    "apiDesc": "凭证在后端加密存储，前端保存后仅展示脱敏后的 Key 片段。",
+    "exchange": "交易所",
+    "apiKey": "API Key",
+    "secret": "API Secret",
+    "passphrase": "Passphrase（仅 OKX）",
+    "saveKeys": "保存凭证",
+    "masked": "已保存 Key 预览",
+    "noSavedKey": "暂未保存任何凭证。",
+    "advanced": "高级参数",
+    "showAdvanced": "展开高级设置 (非必填)",
+    "hideAdvanced": "收起高级设置",
+    "riskWarning": "数字资产交易存在重大风险。请谨慎操作。",
+    "symbol": "交易标的",
+    "leverage": "杠杆倍数",
+    "positionSize": "仓位比例 (%)",
+    "stopLoss": "止损 (%)",
+    "takeProfit": "止盈 (%)",
+    "maxDrawdown": "最大回撤 (%)",
+    "maxOrderNotional": "单次下单上限 (USDT)",
+    "maxPositionNotional": "持仓上限 (USDT)",
+    "useSandbox": "模拟盘 / 沙盒环境",
+    "sandboxHint": "使用 OKX 模拟交易、Binance 测试网等沙盒 API 时请勾选。保存后的设置会在启动机器人时沿用。",
+    "testnet": "模拟盘 / 测试网模式",
+    "adminOnly": "仅管理员账号可见。",
+    "start": "立即启动",
+    "stop": "停止机器人",
+    "statusTitle": "运行状态",
+    "running": "运行中",
+    "stopping": "停止中",
+    "stopped": "已停止",
+    "balance": "账户权益",
+    "unrealizedPnl": "未实现盈亏",
+    "realizedPnl": "已实现盈亏",
+    "exposure": "仓位敞口",
+    "positionsTitle": "当前持仓",
+    "tradesTitle": "最近成交",
+    "long": "多头",
+    "short": "空头",
+    "noTrades": "暂无成交记录。",
+    "closeAll": "停止时自动平掉全部仓位",
+    "applySettings": "应用参数",
+    "applyingSettings": "正在应用参数",
+    "snapshotUpdated": "账户快照更新时间",
+    "runtimeSymbol": "运行标的",
+    "runtimeStrategy": "运行策略",
+    "runtimePosition": "持仓方向",
+    "symbolLockedHint": "机器人运行中时，交易标的会锁定，需停机后才能切换。"
+  },
+  "settings": {
+    "title": "修改密码",
+    "currentPassword": "当前密码",
+    "newPassword": "新密码",
+    "confirmPassword": "确认新密码",
+    "submit": "更新密码"
+  },
+  "chart": {
+    "title": "净值曲线预览",
+    "subtitle": "策略净值走势示意图。"
+  },
+  "common": {
+    "binance": "币安合约",
+    "okx": "OKX 合约"
+  }
+}

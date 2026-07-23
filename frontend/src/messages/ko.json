@@ -1,0 +1,119 @@
+{
+  "nav": {
+    "brand": "Helix Trader",
+    "login": "고객 로그인",
+    "launch": "봇 실행",
+    "settings": "비밀번호",
+    "logout": "로그아웃"
+  },
+  "hero": {
+    "badge": "기관급 선물 자동매매",
+    "title": "거래소 API Key를 한 번의 실행 흐름으로 바꾸세요.",
+    "description": "바이낸스와 OKX 선물에 최적화된 자동매매 봇 플랫폼입니다.",
+    "primary": "콘솔 열기",
+    "secondary": "전략 보기",
+    "stats1Label": "검증된 30일 수익률",
+    "stats2Label": "연 환산 기대 수익률",
+    "stats3Label": "최대 과거 낙폭"
+  },
+  "strategies": {
+    "trend_following_core": {
+      "name": "Helix Momentum X",
+      "description": "모멘텀 지속 구간에 반응하고 변동성이 구조를 이탈하면 빠르게 청산하는 추세 추종형 선물 엔진입니다."
+    },
+    "trend_breakout_accel": {
+      "name": "Helix Breakout Pro",
+      "description": "높은 모멘텀의 돌파 구간에 집중하여 단기 진입과 청산을 반복하며, 동적 트레일링 스탑을 활용합니다."
+    }
+  },
+  "strategy": {
+    "sectionTitle": "대표 전략",
+    "name": "Helix Momentum X",
+    "subtitle": "모멘텀 지속 구간에 반응하고 변동성이 구조를 이탈하면 빠르게 청산하는 추세 추종형 선물 엔진입니다.",
+    "bullet1": "적응형 이동평균과 모멘텀 필터로 품질 낮은 횡보 구간을 줄입니다.",
+    "bullet2": "포지션 크기, 손절, 최대 손실 한도는 계정 레벨에서 제어됩니다.",
+    "bullet3": "공통 전략 인터페이스를 통해 바이낸스와 OKX 선물을 함께 지원합니다.",
+    "monthlyReturn": "검증된 30일 수익률: +28.4%",
+    "annualized": "연 환산 기대 수익률: 약 315.8%",
+    "winRate": "체결 승률: 74.5%",
+    "riskLabel": "리스크 고지",
+    "riskText": "디지털 자산 파생상품은 높은 변동성을 수반합니다. 과거 성과는 예시일 뿐이며 미래 수익을 보장하지 않습니다."
+  },
+  "login": {
+    "title": "고객 전용 접속",
+    "subtitle": "계정은 관리자가 발급합니다. 최초 로그인 후 비밀번호를 변경할 수 있습니다.",
+    "username": "아이디",
+    "password": "비밀번호",
+    "submit": "로그인",
+    "hint": "일반 회원가입은 제공되지 않습니다."
+  },
+  "dashboard": {
+    "eyebrow": "고객 콘솔",
+    "title": "설정은 최소화, 실행은 명확하게.",
+    "description": "거래소 인증 정보를 입력하고, 필요하면 몇 가지 리스크 값만 조정한 뒤 바로 실행할 수 있습니다.",
+    "strategyTitle": "전략 선택",
+    "apiTitle": "거래소 인증 정보",
+    "apiDesc": "인증 정보는 저장 전 암호화되며, 저장 후에는 마스킹된 키 일부만 표시됩니다.",
+    "exchange": "거래소",
+    "apiKey": "API Key",
+    "secret": "API Secret",
+    "passphrase": "Passphrase (OKX 전용)",
+    "saveKeys": "인증 정보 저장",
+    "masked": "저장된 키 미리보기",
+    "noSavedKey": "아직 저장된 인증 정보가 없습니다.",
+    "advanced": "고급 설정",
+    "showAdvanced": "고급 설정 표시 (선택사항)",
+    "hideAdvanced": "고급 설정 숨기기",
+    "riskWarning": "디지털 자산 거래는 높은 위험을 수반합니다. 신중하게 진행하십시오.",
+    "symbol": "거래 심볼",
+    "leverage": "레버리지",
+    "positionSize": "포지션 비중 (%)",
+    "stopLoss": "손절 (%)",
+    "takeProfit": "익절 (%)",
+    "maxDrawdown": "최대 낙폭 제한 (%)",
+    "maxOrderNotional": "1회 주문 한도 (USDT)",
+    "maxPositionNotional": "포지션 한도 (USDT)",
+    "useSandbox": "시뮬레이션(데모) 환경",
+    "sandboxHint": "OKX 데모·Binance 테스트넷 등 샌드박스용 API 키를 쓸 때 켜 주세요. 저장된 값이 실행 시에도 그대로 적용됩니다.",
+    "testnet": "데모 / 테스트넷 모드",
+    "adminOnly": "관리자 계정에서만 표시됩니다.",
+    "start": "지금 시작",
+    "stop": "봇 중지",
+    "statusTitle": "실행 상태",
+    "running": "실행 중",
+    "stopping": "중지 중",
+    "stopped": "중지됨",
+    "balance": "계정 자산",
+    "unrealizedPnl": "미실현 손익",
+    "realizedPnl": "실현 손익",
+    "exposure": "노출 규모",
+    "positionsTitle": "보유 포지션",
+    "tradesTitle": "최근 체결",
+    "long": "롱",
+    "short": "숏",
+    "noTrades": "아직 기록된 체결이 없습니다.",
+    "closeAll": "중지 시 모든 포지션 청산",
+    "applySettings": "파라미터 적용",
+    "applyingSettings": "파라미터 적용 중",
+    "snapshotUpdated": "계정 스냅샷 갱신 시각",
+    "runtimeSymbol": "실행 중 심볼",
+    "runtimeStrategy": "실행 중 전략",
+    "runtimePosition": "포지션 방향",
+    "symbolLockedHint": "봇이 실행 중일 때는 거래 심볼이 잠기며, 변경하려면 먼저 봇을 중지해야 합니다."
+  },
+  "settings": {
+    "title": "비밀번호 변경",
+    "currentPassword": "현재 비밀번호",
+    "newPassword": "새 비밀번호",
+    "confirmPassword": "새 비밀번호 확인",
+    "submit": "비밀번호 업데이트"
+  },
+  "chart": {
+    "title": "성장 곡선 미리보기",
+    "subtitle": "성장 곡선 예시입니다."
+  },
+  "common": {
+    "binance": "바이낸스 선물",
+    "okx": "OKX 선물"
+  }
+}

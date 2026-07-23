@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+:root {
+  --background: #0B0E14;
+  --foreground: #f6f7fb;
+  --panel: rgba(255, 255, 255, 0.05);
+  --muted: #8f9bb7;
+  --line: rgba(255, 255, 255, 0.1);
+  --accent: #10B981;
+  --accent-2: #06B6D4;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+  background-image:
+    radial-gradient(circle at top left, rgba(6, 182, 212, 0.12), transparent 30%),
+    radial-gradient(circle at top right, rgba(16, 185, 129, 0.12), transparent 30%),
+    linear-gradient(180deg, #0F172A 0%, #0B0E14 100%);
+  min-height: 100vh;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+::selection {
+  background: rgba(6, 182, 212, 0.35);
+}
+
+.glass-card {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  box-shadow:
+    0 20px 40px rgba(0, 0, 0, 0.4),
+    inset 0 1px 0 rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.text-muted {
+  color: var(--muted);
+}
+
+.gradient-text {
+  background: linear-gradient(135deg, #ffffff 5%, #9bdcff 38%, #b690ff 68%, #ffffff 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.accent-ring {
+  box-shadow:
+    0 0 0 1px rgba(24, 200, 255, 0.22),
+    0 0 30px rgba(24, 200, 255, 0.16);
+}
+
+.grid-surface {
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+  background-size: 26px 26px;
+}

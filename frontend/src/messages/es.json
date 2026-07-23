@@ -1,0 +1,119 @@
+{
+  "nav": {
+    "brand": "Helix Trader",
+    "login": "Acceso cliente",
+    "launch": "Iniciar bot",
+    "settings": "Contraseña",
+    "logout": "Cerrar sesión"
+  },
+  "hero": {
+    "badge": "Automatización institucional de futuros",
+    "title": "Convierte tus API keys del exchange en un flujo de trading de un solo clic.",
+    "description": "Una plataforma de bots de trading automatizado para Binance y OKX futures.",
+    "primary": "Abrir consola",
+    "secondary": "Ver estrategia",
+    "stats1Label": "Retorno verificado de 30 días",
+    "stats2Label": "Proyección anualizada",
+    "stats3Label": "Máximo drawdown histórico"
+  },
+  "strategies": {
+    "trend_following_core": {
+      "name": "Helix Momentum X",
+      "description": "Motor de futuros orientado a seguimiento de tendencia que entra con continuidad de momentum y sale con disciplina cuando la estructura se rompe."
+    },
+    "trend_breakout_accel": {
+      "name": "Helix Breakout Pro",
+      "description": "Se enfoca en rupturas de alto momentum con entradas y salidas rápidas a corto plazo, utilizando trailing stops dinámicos."
+    }
+  },
+  "strategy": {
+    "sectionTitle": "Estrategia principal",
+    "name": "Helix Momentum X",
+    "subtitle": "Motor de futuros orientado a seguimiento de tendencia que entra con continuidad de momentum y sale con disciplina cuando la estructura se rompe.",
+    "bullet1": "Filtro adaptativo de medias y momentum para evitar rangos laterales de baja calidad.",
+    "bullet2": "Tamaño de posición, stop loss y drawdown máximo se controlan a nivel de cuenta.",
+    "bullet3": "Soporta Binance y OKX futures mediante una interfaz de estrategia compartida.",
+    "monthlyReturn": "Retorno verificado de 30 días: +28.4%",
+    "annualized": "Proyección anualizada: ~315.8%",
+    "winRate": "Tasa de acierto: 74.5%",
+    "riskLabel": "Aviso de riesgo",
+    "riskText": "Los derivados de activos digitales implican alta volatilidad. El rendimiento mostrado es ilustrativo y no garantiza resultados futuros."
+  },
+  "login": {
+    "title": "Acceso exclusivo para clientes",
+    "subtitle": "Las cuentas son creadas por administradores. El cliente puede iniciar sesión y cambiar su contraseña.",
+    "username": "Usuario",
+    "password": "Contraseña",
+    "submit": "Entrar",
+    "hint": "No hay registro público disponible."
+  },
+  "dashboard": {
+    "eyebrow": "Consola del cliente",
+    "title": "Configuración mínima. Claridad total.",
+    "description": "Introduce las credenciales del exchange, ajusta unos pocos controles de riesgo si lo deseas y lanza el bot en un solo flujo.",
+    "strategyTitle": "Elegir estrategia",
+    "apiTitle": "Credenciales del exchange",
+    "apiDesc": "Las credenciales se cifran antes de guardarse. La interfaz solo muestra una vista parcial enmascarada después del guardado.",
+    "exchange": "Exchange",
+    "apiKey": "API Key",
+    "secret": "API Secret",
+    "passphrase": "Passphrase (solo OKX)",
+    "saveKeys": "Guardar credenciales",
+    "masked": "Vista previa de la key",
+    "noSavedKey": "Aún no hay credenciales guardadas.",
+    "advanced": "Configuración avanzada",
+    "showAdvanced": "Mostrar configuración avanzada (Opcional)",
+    "hideAdvanced": "Ocultar configuración avanzada",
+    "riskWarning": "El comercio de activos digitales implica un riesgo significativo. Proceda con precaución.",
+    "symbol": "Símbolo de trading",
+    "leverage": "Apalancamiento",
+    "positionSize": "Tamaño de posición (%)",
+    "stopLoss": "Stop Loss (%)",
+    "takeProfit": "Take Profit (%)",
+    "maxDrawdown": "Máx. drawdown (%)",
+    "maxOrderNotional": "Límite por orden (USDT)",
+    "maxPositionNotional": "Límite de posición (USDT)",
+    "useSandbox": "Entorno sandbox / demo",
+    "sandboxHint": "Actívalo si usas API de demo de OKX, testnet de Binance u otro entorno de pruebas. El valor guardado es el que usa el bot al ejecutarse.",
+    "testnet": "Modo demo / testnet",
+    "adminOnly": "Visible solo para cuentas de administrador.",
+    "start": "Iniciar ahora",
+    "stop": "Detener bot",
+    "statusTitle": "Estado de ejecución",
+    "running": "En ejecución",
+    "stopping": "Deteniendo",
+    "stopped": "Detenido",
+    "balance": "Equidad de la cuenta",
+    "unrealizedPnl": "PnL no realizado",
+    "realizedPnl": "PnL realizado",
+    "exposure": "Exposición",
+    "positionsTitle": "Posiciones abiertas",
+    "tradesTitle": "Operaciones recientes",
+    "long": "Largo",
+    "short": "Corto",
+    "noTrades": "Aún no hay operaciones registradas.",
+    "closeAll": "Cerrar todas las posiciones al detener",
+    "applySettings": "Aplicar parámetros",
+    "applyingSettings": "Aplicando parámetros",
+    "snapshotUpdated": "Actualización del snapshot de cuenta",
+    "runtimeSymbol": "Símbolo en ejecución",
+    "runtimeStrategy": "Estrategia en ejecución",
+    "runtimePosition": "Dirección de posición",
+    "symbolLockedHint": "El símbolo queda bloqueado mientras el bot está en ejecución. Detén el bot antes de cambiarlo."
+  },
+  "settings": {
+    "title": "Cambiar contraseña",
+    "currentPassword": "Contraseña actual",
+    "newPassword": "Nueva contraseña",
+    "confirmPassword": "Confirmar nueva contraseña",
+    "submit": "Actualizar contraseña"
+  },
+  "chart": {
+    "title": "Vista previa de curva de crecimiento",
+    "subtitle": "Curva de crecimiento ilustrativa."
+  },
+  "common": {
+    "binance": "Binance Futures",
+    "okx": "OKX Futures"
+  }
+}

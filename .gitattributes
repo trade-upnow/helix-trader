@@ -1,0 +1,2 @@
+# Exclude from git archive (public runtime zip); keep in local dev repo.
+scripts/package_skill_zip.sh export-ignore

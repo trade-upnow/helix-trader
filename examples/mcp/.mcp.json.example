@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "helix-trader": {
+      "command": "python",
+      "args": ["-m", "app.agent", "mcp"],
+      "cwd": "/ABSOLUTE/PATH/TO/helix-trader/backend",
+      "env": {
+        "HELIX_API_BASE_URL": "http://127.0.0.1:8000",
+        "HELIX_ALLOW_LIVE_TRADING": "false"
+      }
+    }
+  }
+}
